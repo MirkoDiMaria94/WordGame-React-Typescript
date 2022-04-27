@@ -1,0 +1,28 @@
+.square {
+  font-size: 3rem;
+  height: 70px;
+  width: 70px;
+  text-align:center;
+  border: 1.9px solid var(--color-light-grey);
+  background:none;
+  cursor: pointer;
+  place-items: center;    
+}
+
+#correct {
+border:none;
+animation: flip 1s linear;
+background-color: rgb(3,164,100);
+}
+
+#almost {
+border:none;
+animation: flip 1s linear;
+background-color: rgb(255,213,0);
+}
+
+#wrong {
+border: none;
+animation: flip 1s linear;
+background-color: rgb(72,72,72);
+}

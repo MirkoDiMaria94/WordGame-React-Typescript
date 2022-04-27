@@ -1,0 +1,21 @@
+.letter {
+    background-color: grey;
+    color: white;
+    font-weight: var(--font-bold);
+    font-size: var(--font-md);
+    margin: 0.30em;
+    border-radius: 10px;
+    padding: 1em;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+.letter:active{
+    background-color: rgb(107, 106, 106);
+    opacity:0.4;
+}
